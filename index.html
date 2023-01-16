@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="fr">
+   
+    <head>
+
+        <meta charset="UTF-8">
+        
+        <!-- Police Raleway de GoogleFont liée -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+      
+        <!-- Bibliothèque d'icônes Fontawesome liée -->
+        <link href="css/FontAwesome/css/fontawesome.css" rel="stylesheet">
+        <link href="css/FontAwesome/css/brands.css" rel="stylesheet">
+        <link href="css/FontAwesome/css/solid.css" rel="stylesheet"> 
+      
+        <!-- Fichiers CSS liés -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/styleTablette.css">
+        <link rel="stylesheet" href="css/styleMobile.css">
+      
+        <!-- Viewport -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalabe=no">
+        
+        <!-- Nom et logo de l'onglet -->
+        <title>Booki</title>
+        <link rel="icon" type="image/png" sizes="16x16" href="images/logo/Booki.png">
+
+    </head>
+   
+    <body>
+
+        <!-- Bloc Entête -->
+        <header>
+
+            <!-- Bloc Logo -->
+            <div id="logo">
+                <img src="images/logo/Booki.png" alt="Logo Booki">
+            </div>
+
+            <!-- Bloc Menu -->
+            <nav>
+                <ul>
+                    <li><a class="raleway4001619 black" href="#Hebergements">Hébergements</a></li>
+                    <li><a class="raleway4001619 black" href="#Activites">Activités</a></li>
+                </ul>
+            </nav>
+
+        </header>
+
+        <!-- Block Main -->
+        <main>
+
+            <!-- Bloc Rechercher -->
+            <section id="sectionRecherche">
+                <h1 class="raleway7002226 black">Trouvez votre hébergement pour des vacances de rêve</h1>
+                <p class="raleway4001619 black">En plein centre-ville ou en pleine nature</p>
+                
+                <form id="formRecherche" method="post" action="#"> 
+                    <label class="fa-sharp fa-solid fa-location-dot tailleIcone black" for="ville1"></label>
+                    <input type="search" class="raleway7001821 black" name="ville1" id="ville1" value="Marseille, France">
+                    <input type="submit" class="raleway7001821 white" value="Rechercher">
+                    <button class="fa-solid fa-magnifying-glass tailleLoupe white"></button>
+                </form>
+                                    
+            </section>
+
+            <!-- Bloc Filtre -->
+            <section id="sectionFiltre">
+
+                <div id="blocFiltre">
+                    <h2 class="raleway7001821 black">Filtres</h2>
+                    <div id="bloc2Filtre">
+                        <div>
+                            <i class="fa-sharp fa-solid fa-money-bill-wave blue tailleIcone20"></i>
+                            <h3 class="raleway7001720 black">&#201;conomique</h3>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-person blue tailleIcone20"></i>
+                            <h3 class="raleway7001720 black">Familiale</h3>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-heart fa-lg blue tailleIcone20"></i>
+                            <h3 class="raleway7001720 black">Romantique</h3>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-dog blue tailleIcone20"></i>
+                            <h3 class="raleway7001720 black">Animaux autorisés</h3>
+                        </div>
+                    </div>            
+                </div>
+
+                <div id="blocInfo">
+                    <i class="fa-solid fa-info blue tailleIconeI"></i>
+                    <p class="raleway4001619 black"> Plus de 500 logements sont disponibles dans cette ville</p>
+                </div>
+            
+            </section>
+
+            <!-- Bloc Hébergements et Les plus populaires -->
+            <div id="blocHebergementPopulaire">
+
+                <!-- Bloc Hébergements à Marseille -->
+                <section id="sectionHebergements" class="backgroundGrey">
+
+                    <h1 id="Hebergements" class="raleway7002226 black">Hébergements à Marseille</h1>
+                    
+                    <div id="blocArticlesH">
+                        <!-- Carte La Cannebière -->
+                        <article>
+                            <a href="#" class="textDecorationNone">
+                                <img src="images/hebergements/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Image Auberge La Canebière">
+                                <div class="blocDescriptionH">
+                                    <h3 class="raleway7001619 black">Auberge La Canebière</h3>
+                                    <p class="raleway4001416 black">Nuit à partir de 25€</p>
+                                    <div class="blocEtoile">
+                                        <i class="fa-solid fa-star blue"></i>
+                                        <i class="fa-solid fa-star blue"></i>
+                                        <i class="fa-solid fa-star blue"></i>
+                                        <i class="fa-solid fa-star blue"></i>
+                                        <i class="fa-solid fa-star grey"></i>
+                                    </div>
+                                </div>
+                            </a>
+                        </article>
+    
+                        <!-- Carte Hôtel du port -->
+                        <article>
+                            <a href="#" class="textDecorationNone">
+                                <img src="images/hebergements/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Image Hôtel du port">
+                                <div class="blocDescriptionH">
+                                    <h3 class="raleway7001619 black">Hôtel du port</h3>
+                                    <p class="raleway4001416 black">Nuit à partir de 52€</p>
+                                    <div class="blocEtoile">
+                                        <i class="fa-solid fa-star blue"></i>
+                                        <i class="fa-solid fa-star blue"></i>
+                                        <i class="fa-solid fa-star blue"></i>
+                                        <i class="fa-solid fa-star blue"></i>
+                                        <i class="fa-solid fa-star grey"></i>
+                                    </div>
+                                </div>
+                            </a>
+                        </article>
+                        
+                        <!-- Carte Hôtel Les mouettes -->
+                        <article>
+                            <a href="#" class="textDecorationNone">
+                                <img src="images/hebergements/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Image Hôtel Les mouettes">
+                                <div class="blocDescriptionH">
+                                    <h3 class="raleway7001619 black">Hôtel Les mouettes</h3>
+                                    <p class="raleway4001416 black">Nuit à partir de 76€</p>
+                                    <div class="blocEtoile">
+                                        <i class="fa-solid fa-star blue"></i>
+                                        <i class="fa-solid fa-star blue"></i>
+                                        <i class="fa-solid fa-star blue"></i>
+                                        <i class="fa-solid fa-star blue"></i>
+                                        <i class="fa-solid fa-star grey"></i>
+                                    </div>
+                                </div>
+                            </a>
+                        </article>
+    
+                        <!-- Carte Hôtel de la mer -->
+                        <article>
+                            <a href="#" class="textDecorationNone">
+                                <img src="images/hebergements/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Image Hôtel de la mer">
+                                <div class="blocDescriptionH">
+                                    <h3 class="raleway7001619 black">Hôtel de la mer</h3>
+                                    <p class="raleway4001416 black">Nuit à partir de 46€</p>
+                                    <div class="blocEtoile">
+                                        <i class="fa-solid fa-star blue"></i>
+                                        <i class="fa-solid fa-star blue"></i>
+                                        <i class="fa-solid fa-star blue"></i>
+                                        <i class="fa-solid fa-star blue"></i>
+                                        <i class="fa-solid fa-star grey"></i>
+                                    </div>
+                                </div>
+                            </a>
+                        </article>
+    
+                        <!-- Carte Auberge Le Panier -->
+                        <article>
+                            <a href="#" class="textDecorationNone">
+                                <img src="images/hebergements/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Image Auberge Le Panier">
+                                <div class="blocDescriptionH">
+                                    <h3 class="raleway7001619 black">Auberge Le Panier</h3>
+                                    <p class="raleway4001416 black">Nuit à partir de 23€</p>
+                                    <div class="blocEtoile">
+                                        <i class="fa-solid fa-star blue"></i>
+                                        <i class="fa-solid fa-star blue"></i>
+                                        <i class="fa-solid fa-star blue"></i>
+                                        <i class="fa-solid fa-star blue"></i>
+                                        <i class="fa-solid fa-star grey"></i>
+                                    </div>
+                                </div>
+                            </a>
+                        </article>
+    
+                        <!-- Carte Hôtel Chez Amina -->
+                        <article>
+                            <a href="#" class="textDecorationNone">
+                                <img src="images/hebergements/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Image Hôtel Chez Amina">
+                                <div class="blocDescriptionH">
+                                    <h3 class="raleway7001619 black">Hôtel Chez Amina</h3>
+                                    <p class="raleway4001416 black">Nuit à partir de 96€</p>
+                                    <div class="blocEtoile">
+                                        <i class="fa-solid fa-star blue"></i>
+                                        <i class="fa-solid fa-star blue"></i>
+                                        <i class="fa-solid fa-star blue"></i>
+                                        <i class="fa-solid fa-star blue"></i>
+                                        <i class="fa-solid fa-star grey"></i>
+                                    </div>
+                                </div>
+                            </a>
+                        </article>
+                    </div>
+                    
+                    <h2><a href="#" class="raleway7001821 black textDecorationNone">Afficher plus</a></h2>
+                    
+                </section>
+
+                <!-- Bloc Les plus populaires -->
+                <section id="sectionPopulaires" class="backgroundGrey">
+                    
+                    <div id="blocH1Chart">
+                        <h1 class="raleway7002226 black">Les plus populaires</h1>
+                        <i class="fa-solid fa-chart-line blue tailleIconeChart"></i>
+                    </div>
+
+                    <div id="blocArticlesP">
+                        <!-- Carte Hôtel Le soleil du matin -->
+                        <article><a href="#" class="textDecorationNone">
+                            <img src="images/hebergements/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Image Hôtel Le soleil du matin">
+                            <div class="blocDescription">
+                                <div>
+                                    <h3 class="raleway7001619 black">Hôtel Le soleil du matin</h3>
+                                    <p class="raleway4001416 black">Nuit à partir de 128€</p>
+                                </div>
+                                <div class="blocEtoile">
+                                    <i class="fa-solid fa-star blue"></i>
+                                    <i class="fa-solid fa-star blue"></i>
+                                    <i class="fa-solid fa-star blue"></i>
+                                    <i class="fa-solid fa-star blue"></i>
+                                    <i class="fa-solid fa-star grey"></i>
+                                </div>
+                            </div> 
+                        </a></article>
+
+                        <!-- Carte Chambres d'hôtes Au coeur de l'eau -->
+                        <article><a href="#" class="textDecorationNone">
+                            <img src="images/hebergements/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Image Chambres d'hôtes Au coeur de l'eau">
+                            <div class="blocDescription">
+                                <div>
+                                    <h3 class="raleway7001619 black">Chambres d'hôtes Au coeur de l'eau</h3>
+                                    <p class="raleway4001416 black">Nuit à partir de 71€</p>
+                                </div>
+                                <div class="blocEtoile">
+                                    <i class="fa-solid fa-star blue"></i>
+                                    <i class="fa-solid fa-star blue"></i>
+                                    <i class="fa-solid fa-star blue"></i>
+                                    <i class="fa-solid fa-star blue"></i>
+                                    <i class="fa-solid fa-star grey"></i>
+                                </div>
+                            </div> 
+                        </a></article>
+                        
+                        <!-- Carte Hôtel Bleu et Blanc -->
+                        <article><a href="#" class="textDecorationNone">
+                            <img src="images/hebergements/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Image Hôtel Bleu et Blanc">
+                            <div class="blocDescription">
+                                <div>
+                                    <h3 class="raleway7001619 black">Hôtel Bleu et Blanc</h3>
+                                    <p class="raleway4001416 black">Nuit à partir de 68€</p>
+                                </div>
+                                <div class="blocEtoile">
+                                    <i class="fa-solid fa-star blue"></i>
+                                    <i class="fa-solid fa-star blue"></i>
+                                    <i class="fa-solid fa-star blue"></i>
+                                    <i class="fa-solid fa-star blue"></i>
+                                    <i class="fa-solid fa-star grey"></i>
+                                </div>
+                            </div> 
+                        </a></article>
+                    </div>
+                </section>
+
+            </div>
+
+            <!-- Bloc Activités à Marseille -->
+            <section id="sectionActivites">
+                
+                <h1 id="Activites" class="raleway7002226 black">Activités à Marseille</h1>
+
+                <div id="blocArticlesA">
+                    
+                    <!-- Carte Vieux-Port -->
+                    <article>
+                        <a href="#" class="textDecorationNone">
+                            <img src="images/activites/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Image Vieux Port">
+                            <div class="centre">
+                                <h3 class="raleway7001619 black">Vieux-Port</h3>
+                            </div>   
+                        </a>
+                    </article>
+
+                    <!-- Carte Fort de Pomègues -->
+                    <article>
+                        <a href="#" class="textDecorationNone">
+                            <img src="images/activites/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Image Fort de Pomègues">
+                            <div class="centre">
+                                <h3 class="raleway7001619 black">Fort de Pomègues</h3>
+                            </div>
+                        </a>
+                    </article>
+
+                    <!-- Carte Parc national des Calanques -->
+                    <article>
+                        <a href="#" class="textDecorationNone">
+                            <img src="images/activites/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Image Parc national des Calanques">
+                            <div class="centre">
+                                <h3 class="raleway7001619 black">Parc national des Calanques</h3>
+                            </div>
+                        </a>
+                    </article>
+
+                    <!-- Carte Notre-Dame-de-la-Garde -->
+                    <article>
+                        <a href="#" class="textDecorationNone">
+                            <img src="images/activites/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Image Notre Dame de la Garde">
+                            <div class="centre">
+                                <h3 class="raleway7001619 black">Notre-Dame-de-la-Garde</h3>
+                            </div>
+                        </a>
+                    </article>
+
+                </div>
+                                    
+            </section>
+
+        </main>
+
+        <!-- Bloc Pied de page -->
+        <footer class="backgroundGrey">
+
+            <!-- Bloc A propos -->
+            <div>
+                <h2 class="raleway7001821 black">&#192; propos</h2>
+                <ul>
+                    <li><a class=".raleway4001619 black textDecorationNone" href="#">Fonctionnement du site</a></li>
+                    <li><a class=".raleway4001619 black textDecorationNone" href="#">Conditions générales</a></li>
+                    <li><a class=".raleway4001619 black textDecorationNone" href="#">Données et confidentialité</a></li>
+                </ul>
+            </div>
+
+            <!-- Bloc Nos hébergements -->
+            <div>
+                <h2 class="raleway7001821 black">Nos hébergements</h2>
+                <ul>
+                    <li><a class=".raleway4001619 black textDecorationNone" href="#">Charte qualité</a></li>
+                    <li><a class=".raleway4001619 black textDecorationNone" href="#">Proposer votre hôtel</a></li>
+                </ul>
+            </div>
+
+            <!-- Bloc Assistance -->
+            <div>
+                <h2 class="raleway7001821 black">Assistance</h2>
+                <ul>
+                    <li><a class=".raleway4001619 black textDecorationNone" href="#">Centre d'aide</a></li>
+                    <li><a class=".raleway4001619 black textDecorationNone" href="#">Nous contacter</a></li>
+                </ul>
+            </div>
+        </footer>
+
+    </body>
+
+</html>
+     
+        

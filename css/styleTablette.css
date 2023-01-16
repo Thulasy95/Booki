@@ -1,0 +1,208 @@
+
+/*------TABLETTE---------------------------------------------------------------------------------*/
+
+@media screen and (min-width: 768px) and (max-width: 992px) 
+{
+    body
+    {
+        margin: 0 7%;
+    }
+
+/*POLICES-----------------------------------------------------------------------------------------*/
+
+    .raleway7001619
+    {
+        font-size: 14px;
+    }
+
+    .raleway7001720
+    {
+        font-size: 15px;
+    }
+
+    .raleway7001821
+    {
+        font-size: 16px;
+    }
+
+
+    .raleway7002226
+    {
+        font-size: 20px;
+    }
+
+    .raleway4001416
+    {
+        font-size: 12px;
+    }
+
+    .raleway4001619
+    {
+        font-size: 14px;
+    }
+
+
+/* BLOC ENTETE----------------------------------------------------------------------------------------*/
+
+    header
+    {
+        width: 107%;
+    }
+
+    #logo
+    {
+        margin-left: 0;
+    }
+
+    header a:hover
+    {
+        font-size: 14px;
+    }
+
+
+/*BLOC MAIN-------------------------------------------------------------------------------------------*/
+
+/*............................Section Recherche..................*/
+
+    #sectionRecherche
+    {
+        margin-left: 0;
+    }
+
+    #formRecherche
+    {
+        margin-left: 0.23%;
+    }
+
+
+/*.........................Section Filtre.................................*/
+
+    #sectionFiltre
+    {
+        margin: 101px 0 0 0;   
+    }
+
+    #blocFiltre
+    {
+        margin: 0;
+    }
+
+    #bloc2Filtre                        
+    {
+        width: 89%;
+        margin-left: 1.93%;
+    }
+
+    .tailleIcone20 
+    {
+        font-size: 18px;
+        width: 18px;
+    }
+
+    #blocInfo
+    {
+        margin: 35px 0 0 0;
+    }
+
+
+/*~~~~~~~~~~~~~~~~~~~BLOC Hébergements et Les plus populaires~~~~~~~~~~~~~~~~~~~*/
+
+    #blocHebergementPopulaire
+    {
+        height: 957px;
+        flex-direction: column;
+    }
+
+/*.......................Section Hébergements...............*/
+
+    #sectionHebergements
+    {
+        width: 100%;             
+    }
+
+    .blocDescriptionH
+    {
+        justify-content: space-around;
+    }
+
+    .blocEtoile i
+    {
+        font-size: 10px;           
+    }
+   
+    
+/*............................LES PLUS POPULAIRES..................*/
+
+    #sectionPopulaires
+    {
+        width: 100%;
+        height: 278px;
+             
+    }
+
+    #blocH1Chart
+    {
+        margin: 34px 4.54% 0 4.54%;
+    }
+
+    #blocArticlesP
+    {
+        height: unset;
+        margin: 26px 4.54% 48px 4.54%;
+        flex-direction: row;
+    }
+
+    #blocArticlesP article
+    {
+        width: 31.474%;
+    }
+
+    #sectionPopulaires img
+    {
+        width: 37.38%;
+    }
+
+    .blocDescription
+    {
+        width: 52%;
+        margin: 12px 5px 12px 3.97%;
+    }
+    
+
+    /*..................BLOC Activités............................................*/
+
+    #sectionActivites
+    {
+        margin-top: 70px;
+    }
+
+    #sectionActivites h1
+    {
+        margin: 0 0 0 1.13%;
+    }
+
+    #blocArticlesA
+    {
+        margin-top: 34px;
+    }
+
+    #blocArticlesA article
+    {
+        width: 20.67%;
+        height: 267px;       
+    }
+
+    #blocArticlesA img 
+    {
+        height: 211px;
+    }
+
+    
+    /*FOOTER-----------------------------------------------------------------------------------------*/
+
+    footer
+    {
+        margin-top: 69px;
+    }
+    
+}

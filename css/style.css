@@ -1,0 +1,603 @@
+/*ELEMENTS PRINCIPAUX DE LA PAGE--------------------------------------------------------------- */
+
+body                            
+{
+    background-color: #FFFFFF;
+    font-family: 'Raleway', Arial, sans-serif;
+    max-width: 1400px;
+    margin: 0 3.47%;
+}
+
+
+/*COULEURS---------------------------------------------------------------------------------------*/
+
+.blue
+{
+    color: #0065FC;
+}
+
+.black
+{
+    color: #000000;
+}
+
+.white
+{
+    color: #FFFFFF;
+}
+
+.grey
+{
+    color: #F2F2F2;
+}
+
+.backgroundGrey
+{
+    background-color: #F2F2F2;
+}
+
+.backgroundBlue
+{
+    background-color: #0065FC;
+}
+
+.backgroundLightBlue
+{
+    background-color: #DEEBFF;
+}
+
+.backgroundWhite
+{
+    background-color: #FFFFFF;
+}
+
+
+/*POLICES-----------------------------------------------------------------------------------------*/
+
+.raleway7001619
+{
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px; 
+}
+
+.raleway7001720
+{
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+}
+
+.raleway7001821
+{
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;  
+}
+
+
+.raleway7002226
+{
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;  
+}
+
+.raleway4001416
+{
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.raleway4001619
+{
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+
+
+
+/* BLOC ENTETE----------------------------------------------------------------------------------------*/
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo
+{
+    margin-left: 0.374%;
+}
+
+#logo img
+{
+    width: 61.09px;     
+    height: 19px;        
+    margin-top: 48px;
+    padding: 0;
+}
+
+header ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;   
+}
+
+header a
+{
+    text-decoration: none;
+    display: block; 
+    width: 162px;               
+    padding-top: 46px;
+    margin: 0;
+    text-align: center;
+    border-top: 2px transparent solid;           
+}
+
+header a:hover
+{
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #0065FC;  
+    border-top: 2px #0065FC solid;          
+}
+
+
+/*BLOC MAIN-------------------------------------------------------------------------------------------*/
+
+/*............................Section Recherche..................*/
+
+#sectionRecherche
+{
+    margin-left: 0.374%;
+}
+
+#sectionRecherche h1
+{
+    margin: 56px 0 0 0; 
+} 
+
+#sectionRecherche p
+{
+    margin: 10px 0 0 0;
+} 
+
+#formRecherche
+{
+    margin-top: 20px;               
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+}
+
+.tailleIcone
+{
+    font-size: 18px;          
+}                             
+
+#formRecherche label                        
+{
+    margin: 0;
+    padding: 100% 118.6%;
+    border: 1px solid #F2F2F2;              
+    border-radius: 15px 0px 0px 15px;       
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+#formRecherche input[type="search"]                        
+{
+    width: 2238.3%;
+    margin: 0;
+    padding: 89.9% 390% 89.9% 445%;
+    background-color: #FFFFFF;
+    border: 1px solid #F2F2F2;      
+    border-radius: 15px;            
+    position: absolute;
+    left: 0;
+    z-index: 1;
+}
+
+#formRecherche input[type="submit"]                            
+{
+    width: 890%;
+    margin: 0;
+    padding: 89.9% 107.9%;
+    background-color: #0065FC;
+    border: 1px solid #0065FC;      
+    border-radius: 0px 15px 15px 0px;   
+    position: absolute;
+    left: 286px;                       
+    z-index: 3;
+    cursor: pointer;
+}
+
+#formRecherche button
+{
+    display: none;
+}
+
+
+/*.........................Section Filtre.................................*/
+
+#sectionFiltre
+{
+    margin: 101px 0 0 0.374%;   
+}
+
+#blocFiltre
+{
+    margin: 0 0 0 0.525%;
+    padding: 0;
+    display: flex;
+    align-items: baseline;
+}
+
+#blocFiltre h2 
+{
+    margin:0;
+}
+
+#bloc2Filtre                        
+{
+    width: 65%;       
+    margin-left: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#bloc2Filtre div                        
+{
+    height: 46px;                           
+    padding: 0 3.65% 0 2.317%;
+    display: flex;
+    align-items:center;
+    border: 2px solid #D9D9D9;             
+    border-radius: 25px;                    
+}
+
+#bloc2Filtre div:hover
+{
+    background-color: #DEEBFF;
+    cursor: pointer;
+}
+
+#bloc2Filtre h3 
+{
+    margin: 0 0 0 7.45%;
+    padding: 0;
+    white-space: nowrap;
+}
+
+.tailleIcone20
+{
+    font-size: 20px; 
+    width: 20px;
+    text-align: center;     
+}
+
+#blocInfo
+{
+    display: flex;
+    align-items: center;
+    margin: 35px 0 0 0.3%;
+}
+
+#blocInfo i                 
+{
+    padding: 6px 9px; 
+    border: 1px solid #D9D9D9;              
+    border-radius: 12px;                    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tailleIconeI                  
+{
+    font-size: 10px;  
+}
+
+#blocInfo p
+{
+    margin: 0 0 0 0.826%;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~BLOC Hébergements et Les plus populaires~~~~~~~~~~~~~~~~~~~*/
+
+#blocHebergementPopulaire
+{
+    margin-top: 37px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*.......................Section Hébergements..............................*/
+
+#sectionHebergements
+{
+    width: 65.669%;
+    height: 626px;
+    border-radius: 20px;           
+}
+
+#sectionHebergements h1
+{
+    margin: 0;
+    padding: 42px 0 0 4.546%;
+}
+
+#blocArticlesH
+{
+    height: 428px;
+    margin: 23px 4.546% 0 4.546%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+#sectionHebergements article
+{
+    width: 29.585%;
+    height: 189px;                  
+    background-color: #FFFFFF;
+    border: 5px solid #FFFFFF;
+    border-radius: 20px;                
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);            
+}
+
+#sectionHebergements article:hover
+{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);           
+}
+
+.textDecorationNone
+{
+    text-decoration: none;
+}
+
+#sectionHebergements img
+{
+    width: 100%;
+    height: 114px;
+    border-radius: 15px 15px 0px 0px;
+    object-fit: cover;
+}
+
+.blocDescriptionH
+{
+    height: 62px;
+    margin: 0;
+    padding: 4px 0 9px 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.blocDescriptionH h3
+{
+    margin:0;
+}
+
+.blocDescriptionH p
+{
+    margin: 0;
+}
+
+.blocEtoile
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.blocEtoile i
+{
+    font-size: 12px;           
+}
+
+#sectionHebergements h2
+{
+    margin: 40px 0 0 5%;
+}
+
+
+/*............................LES PLUS POPULAIRES..........................*/
+
+#sectionPopulaires
+{
+    width: 31.342%;
+    border-radius: 20px;            
+}
+
+#blocH1Chart
+{
+    margin: 41px 9.17% 0 9.17%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+#blocH1Chart h1
+{
+    margin: 0;
+}
+
+.tailleIconeChart
+{
+    font-size: 16px;
+}
+
+#blocArticlesP
+{
+    height: 498px;
+    margin: 26px 9.17% 0 9.17%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#blocArticlesP article
+{
+    width: 100%;
+    height: 144px;               
+    background-color: #FFFFFF;
+    border-radius: 20px;                            
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);       
+}
+
+#blocArticlesP article:hover
+{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);       
+}
+
+#blocArticlesP a
+{
+    height: 100%;
+    display: flex;
+}
+
+#sectionPopulaires img
+{
+    width: 37.91%;
+    border: 5px solid #FFFFFF;            
+    border-radius: 20px 0px 0px 20px;       
+    object-fit: cover;
+}
+
+.blocDescription
+{
+    width: 49.274%;
+    margin: 16px 0 12px 4.378%;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#sectionPopulaires h3
+{
+    margin: 0;
+}
+
+#sectionPopulaires p
+{
+    margin: 7px 0 0 0;
+}
+
+
+/*..................BLOC Activités............................................*/
+
+#sectionActivites
+{
+    margin-top: 60px;
+}
+
+#sectionActivites h1
+{
+    margin: 0;
+}
+
+#blocArticlesA
+{
+    margin-top: 19px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#blocArticlesA article
+{
+    width: 22.537%;
+    height: 445px;                      
+    border-radius: 20px;                   
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);        
+}
+
+#blocArticlesA article:hover
+{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);       
+}
+
+#blocArticlesA img
+{
+    width: 100%;
+    height: 389px;
+    border-radius: 20px 20px 0px 0px;       
+    object-fit: cover;
+}
+
+.centre
+{
+    height: 50px;
+    margin: 0 5px 0 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#blocArticlesA h3
+{
+    margin: 0;
+}
+
+/*BLOC PIED DE PAGE-----------------------------------------------------------------------------------------*/
+
+footer
+{
+    height: 122px;
+    margin-top: 60px;
+    padding: 45px 0 58px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer div
+{
+    width: 14.552%;
+}
+
+footer h2
+{
+    margin: 0 0 20px 0;
+    padding: 0;
+    white-space: nowrap;
+}
+
+footer ul
+{
+    list-style-type: none;              
+    margin: 0;
+    padding: 0;
+    line-height: 27px;   
+}
+
+footer a
+{
+    white-space: nowrap;
+}
+
+
+
+
+

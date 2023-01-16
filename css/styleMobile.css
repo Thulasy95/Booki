@@ -1,0 +1,275 @@
+/*------MOBILE---------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 768px)
+{
+
+    body
+    {
+        margin: 0;
+    }
+
+    /*BLOC ENTETE----------------------------------------------------------------------------------------*/
+
+    header
+    {
+        width: 100%;
+        height: 132px;
+        flex-direction: column;
+        justify-content: unset;
+        align-items: center;
+    }
+
+    #logo
+    {
+        height: 19px;
+        margin: 21px 0 0 0;
+    }
+
+    #logo img
+    {       
+        margin:0;
+    }
+
+
+    header nav
+    {
+        width: 100%;   
+    }
+
+    header li
+    {
+        width: 50%;
+    }
+
+    header a
+    {
+        width: 100%;
+        padding: 48px 0 22px 0;
+        border-top: none;        
+        border-bottom: 3px solid #F2F2F2;    
+    }
+
+    header a:hover
+    {
+        border-top: none;          
+        border-bottom: 3px #0065FC solid;
+    }
+
+
+    /*BLOC MAIN-------------------------------------------------------------------------------------------*/
+
+    /*............................Section Recherche..................*/
+
+    #sectionRecherche
+    {
+        margin: 31px 5.33% 0 5.33%;
+    }
+
+    #sectionRecherche h1
+    {
+        margin: 0; 
+    } 
+
+    #sectionRecherche p
+    {
+        margin: 13px 0 0 0;
+    } 
+
+    #formRecherche
+    {
+        margin: 36px 0 0 0.533%;
+    }
+        
+    #formRecherche input[type="submit"]
+    {
+        display: none;
+    }
+        
+    #formRecherche button                          
+    {
+        width: 330.4%;
+        margin: 0;
+        padding: 103.4% 107.9%;
+        background-color: #0065FC;
+        border: 1px solid #0065FC;      
+        border-radius: 0px 15px 15px 0px;   
+        position: absolute;
+        left: 282px;                       
+        z-index: 3;
+        cursor: pointer;
+        display: flex;
+    }
+
+    .tailleLoupe
+    {
+        font-size: 17px;
+    }
+
+        
+    /*.........................Section Filtre...............*/
+
+    #sectionFiltre
+    {
+        margin: 119px 5.33% 0 5.33%;
+    }
+
+    #blocFiltre
+    {
+        margin: 0;
+        flex-direction: column;
+        align-items: unset;        
+    }
+
+    #bloc2Filtre                       
+    {
+        width: 100%;  
+        height: 117px;     
+        margin: 15px 0 0 0;
+        flex-wrap: wrap;
+        align-content: space-between;
+    }
+
+    #bloc2Filtre div 
+    {
+        width: 40.56%;
+        padding: 0 3.88%;
+    }
+
+    #bloc2Filtre h3 
+    {
+        margin: 0 0 0 7%;
+        font-size: 11px;
+        line-height: 13px;
+    }
+ 
+    #blocInfo
+    {
+        margin: 40px 0 0 0;
+        align-items: baseline;
+    }
+
+    #blocInfo p
+    {
+        margin: 0 0 0 3.285%;
+    }
+
+
+    /*~~~~~~~~~~~~~~~~~~~BLOC Hébergements et Les plus populaires~~~~~~~~~~~~~~~~~~~*/
+
+    #blocHebergementPopulaire
+    {
+        margin-top: 35px;
+        flex-direction: column;
+        justify-content: unset;
+    }
+
+    /*.......................Section Hébergements...............*/
+
+    #sectionHebergements
+    {
+        width: 89.255%;
+        height: 1404px;
+        margin: 0;
+        padding: 26px 5.33% 0 5.33%;
+        border-radius: initial;
+        background-color: #FFFFFF;
+        order: 2;      
+    }
+
+    #sectionHebergements h1 
+    {
+        padding: 0;
+    }
+
+    #blocArticlesH
+    {
+        height: 1254px;
+        margin: 25px 0 0 0;
+        flex-direction: column;
+        flex-wrap: unset;
+        align-content: unset;
+    }
+
+    #sectionHebergements article
+    {
+        width: 97.215%;                 
+        margin:0;
+    }
+
+    #sectionHebergements h2
+    {
+        display: none;
+    }
+
+
+    /*............................LES PLUS POPULAIRES..................*/
+
+    #sectionPopulaires
+    {
+        width: 100%;
+        height: 580px;
+        border-radius: unset;
+        order: 1;         
+    }
+
+    #blocH1Chart
+    {
+        width: unset;
+        margin: 0;
+        padding: 28px 5.33% 0 5.33%;
+    }
+
+    #blocArticlesP
+    {
+        height: 453px;
+        margin: 25px 5.33% 0 5.33%;
+    }
+
+    #blocArticlesP article 
+    {
+        width: 99.905%;
+    }
+    
+    /*..................BLOC Activités............................................*/
+
+    #sectionActivites
+    {
+        margin: 0 5.33% 0 5.33%;
+    }
+    
+    #blocArticlesA
+    {
+        height: 832px;
+        margin-top: 25px;
+        flex-direction: column;
+    }
+
+    #blocArticlesA article
+    {
+        width: 99.605%;
+        height: 190px;                            
+    }
+
+    #blocArticlesA img 
+    {
+        height: 134px;
+    }
+
+    
+    /*FOOTER-----------------------------------------------------------------------------------------*/
+
+    footer
+    {
+        height: 404px;
+        margin-top: 80px;
+        padding: 45px 7.997% 61px 7.997%;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    footer div 
+    {
+        width: 100%;
+    }
+
+}
