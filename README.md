@@ -12,6 +12,4 @@ Mission : Intégrer les maquettes les maquettes responsives en site web avec HTM
 
 ![image](https://github.com/Thulasy95/Booki/assets/116100441/9dac6a4e-3929-44bf-8687-9a506e350ea3)
 
-Vous trouverez, ci-dessous, le lien URL pour accéder au site web :
-
-https://thulasy95.github.io/Booki/
+Pour accéder au site, veuillez télécharger le dossier et ouvrir le fichier index.html.
